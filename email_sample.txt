@@ -1,0 +1,18 @@
+From: PayPal Support <security@paypa1-verification.com>
+To: user@example.com
+Subject: Urgent: Unusual Activity Detected On Your PayPal Account
+
+Dear Customer,
+
+We noticed an unauthorized login attempt from a new device. For your security, 
+your account will be temporarily suspended unless you verify your identity.
+
+Please confirm your information by clicking the secure link below:
+
+https://www.paypal.com/activity
+(Actual URL redirects to: http://verify-login-secure-paypal.xyz/login)
+
+Failure to act within 24 hours may result in permanent account suspension.
+
+Best Regards,
+PayPal Security Team
