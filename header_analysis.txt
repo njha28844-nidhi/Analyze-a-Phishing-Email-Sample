@@ -1,0 +1,21 @@
+=====================
+Email Header Summary
+=====================
+
+SPF: FAIL  
+Reason: Sender IP 185.221.62.14 not authorized in paypa1-verification.com SPF record.
+
+DKIM: FAIL  
+Reason: DKIM signature missing.
+
+DMARC: FAIL  
+Reason: SPF and DKIM both failed → alignment failed.
+
+Return-Path: security@paypa1-verification.com
+Reply-To: support@paypal-security-check.com (different domain)
+
+X-Originating-IP: 185.221.62.14
+GeoIP: Hosted on a VPS provider in Moldova, not PayPal.
+
+Conclusion:
+Header authentication failures + unknown IP confirm phishing.
